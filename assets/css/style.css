@@ -216,7 +216,7 @@ q {
 }
 @include hyphens(none);
 pre {
-  
+
 }@include text-shadow(none);
 /* - Font weight classes - */
 .black {
@@ -3853,10 +3853,8 @@ a#slide{
     height:40px;
     top:10px;
     left:10px;
-    text-align:center;
-    font:22px/40px "icon";
-    color:#fff;
-    background:#262626;
+    background-image: url(/images/ma-logo.png);
+    background-size: cover;
     border-radius:3px;
     z-index:31
     }
@@ -3865,19 +3863,13 @@ a#slide:hover{
     background:#39c492
     }
 
-a#slide:after{
-    content:"F"
-    }
-
 a#slide.slide:after{
     position:absolute;
-    content:"X";
     top:11px;
     left:50%;
     width:40px;
     height:40px;
     margin:0 0 0 -20px;
-    font:18px "icon" !important;
     vertical-align:middle
     }
 
@@ -4013,7 +4005,7 @@ body.slide{
 /*      Responsive      */
 
 @media screen and (max-width:1140px){
-    
+
     #header,
     #posts-container,
     .entry .text,
@@ -4022,7 +4014,7 @@ body.slide{
     .entry .details{
         width:700px
         }
-    
+
     }
 
 @media screen and (max-width:700px){
@@ -4047,9 +4039,9 @@ body.slide{
 
 
 @media screen and (max-width:500px){
-    
+
     a#slide{
-        position:absolute    
+        position:absolute
         }
 
 
