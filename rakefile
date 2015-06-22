@@ -1,4 +1,4 @@
-  # adapted from https://github.com/imathis/octopress/blob/master/Rakefile   
+  # adapted from https://github.com/imathis/octopress/blob/master/Rakefile
   # usage rake new_post['My New Post'] or rake new_post (defaults to "My New Post")
   desc "Start a new post"
   task :new, :title do |t, args|
@@ -13,7 +13,6 @@
      post.puts "description: "
      post.puts "headline: "
      post.puts "modified: #{Time.now.strftime('%Y-%m-%d')}"
-     post.puts "category: personal"
      post.puts "tags: []"
      post.puts "image: "
      post.puts "  feature: "
@@ -37,7 +36,6 @@
      post.puts "description: "
      post.puts "headline: "
      post.puts "modified: #{Time.now.strftime('%Y-%m-%d')}"
-     post.puts "category: quotes"
      post.puts "tags: []"
      post.puts "image: "
      post.puts "  feature: "
@@ -61,7 +59,6 @@
      post.puts "description: "
      post.puts "headline: "
      post.puts "modified: #{Time.now.strftime('%Y-%m-%d')}"
-     post.puts "category: status"
      post.puts "tags: []"
      post.puts "image: "
      post.puts "  feature: "
@@ -71,7 +68,7 @@
    end
   end
 
-    # adapted from https://github.com/imathis/octopress/blob/master/Rakefile   
+    # adapted from https://github.com/imathis/octopress/blob/master/Rakefile
   # usage rake new_post['My New Post'] or rake new_post (defaults to "My New Post")
   desc "Start a new page"
   task :newpage, :title do |t, args|

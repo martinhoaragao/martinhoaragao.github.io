@@ -51,17 +51,18 @@ links:
     url: /
     external: false
     icon: home
-  - title: <i class="icon-book"></i> Documentation
+  - title: Documentation
     url: /documentation
-  - title: Categories
-    url: /categories
+    icon: book
   - title: Tags
     url: /tags
-  - title: Faysal who?
+    icon: tags
+  - title: Stalk me
     url: /hossain-mohd-faysal
+    icon: user-secret
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/Lisbon
 future:      true
 highlighter: pygments
 markdown:    kramdown
@@ -69,7 +70,7 @@ paginate:    6
 paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink:   /:title
 
 kramdown:
   auto_ids: true

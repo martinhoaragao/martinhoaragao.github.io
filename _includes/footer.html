@@ -58,7 +58,7 @@
                 {% if link.external %}
                     <a href="{{ link.url }}">{% if link.icon %}<i class="icon-{{ link.icon }}"></i>{% else %}{{ link.title }}{% endif %}</a>&nbsp;&bull;
                 {% else %}
-                    <a href="{{ site.url }}{{ link.url }}">{% if link.icon %}<i class="icon-{{ link.icon }}"></i>{% else %}{{ link.title }}{% endif %}</a>&nbsp;&bull;
+                    <a href="{{ site.url }}{{ link.url }}">{% if link.icon %}<i class="icon-{{ link.icon }}"></i> {% endif %}{{ link.title }}</a>&nbsp;&bull;
                 {% endif %}
             </li>
             {% endfor %}
