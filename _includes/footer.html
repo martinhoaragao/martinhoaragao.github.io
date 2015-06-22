@@ -19,7 +19,7 @@
                 </a>
             </li>{% endif %}
             {% if site.owner.google_plus %}<li>
-                <a href="{{ site.owner.google_plus }}" data-toggle="tooltip" title="{{ site.owner.name}} on Google+" target="_blank">
+                <a href="https://plus.google.com/+{{ site.owner.google_plus }}" data-toggle="tooltip" title="{{ site.owner.name}} on Google+" target="_blank">
                     <i class="icon-google-plus"></i>
                 </a>
             </li>{% endif %}
@@ -29,7 +29,7 @@
                 </a>
             </li>{% endif %}
             {% if site.owner.linkedin %}<li>
-                <a href="{{ site.owner.linkedin }}" data-toggle="tooltip" title="{{ site.owner.name}} on LinkedIn" target="_blank">
+                <a href="https://www.linkedin.com/in/{{ site.owner.linkedin }}" data-toggle="tooltip" title="{{ site.owner.name}} on LinkedIn" target="_blank">
                     <i class="icon-linkedin"></i>
                 </a>
             </li>{% endif %}
@@ -59,7 +59,7 @@
                     <a href="{{ link.url }}">{% if link.icon %}<i class="icon-{{ link.icon }}"></i>{% else %}{{ link.title }}{% endif %}</a>&nbsp;&bull;
                 {% else %}
                     <a href="{{ site.url }}{{ link.url }}">{% if link.icon %}<i class="icon-{{ link.icon }}"></i>{% else %}{{ link.title }}{% endif %}</a>&nbsp;&bull;
-                {% endif %} 
+                {% endif %}
             </li>
             {% endfor %}
             <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
