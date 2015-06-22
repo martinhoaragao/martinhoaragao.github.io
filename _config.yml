@@ -23,9 +23,9 @@ url:
 owner:
   name:           Martinho Aragão
   avatar:         ma.jpg
-  email:          hmfaysal@alum.mit.edu
+  email:          martinhoaragao@live.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Hossain Mohammad Faysal is an Electrical Engineer and a Mathematician based in Doha, Qatar. His interests are anything that&#8217;s related to math, from math itself to programming languages to music to physics to engineering to philosophy.
+  description:    Martinho Aragão is an annoying and curious fellow. He's still writing what is ought to go here. So what you are reading right now is basically worthless. 
   # Social networking links used in footer. Update and remove as you like.
   twitter:        martinhoaragao
   facebook:
@@ -38,7 +38,7 @@ owner:
   google_plus:    martinhoaragao
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   UA-39365944-7
+google_analytics:   UA-64330582-1
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:

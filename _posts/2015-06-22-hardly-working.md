@@ -1,30 +1,18 @@
 ---
 layout: post
 type: status
-title: "Sample Status Post"
-description: "This is a sample status"
-category: Sample-Posts
-tags: [sample post, status]
-imagefeature: picture-10.jpg
+title: "Hardly Working"
+description: "Refactoring and adapting what you're seeing!"
+tags: [status]
+imagefeature: dunes-old.jpg
 comments: true
-mathjax: 
+mathjax:
 ---
-Oh Hello. This is a status post. Click here to learn about it more :-)
+Hardly Working
 
-Don't worry, you can enter additional details about your status update. Only the first paragraph `[p:first-child]` will be shown in the home page :-)
+As of right now, I'm focusing on cleaning up the code to what I need.
 
-To start a status post, simply run `rake newstatus['Some Status Title']` in the command line. Or if you want to create the post by yourself, make sure your post contains the following contents in your post's Front Matter YAML:
+Meanwhile, I'm building up my first post. As soon as it is done, this shall be replaced.
 
-    ---
-    layout: post
-    type: status
-    title: "Sample Status Title"
-    description: 
-    headline: 
-    modified: YYYY-MM-DD
-    category: status
-    image: 
-      feature: 
-    comments: true
-    mathjax: 
-    ---
+But don't stop coming here just because of that! I shall be as swift as the wind, although I'm neither saying there is wind, nor that it is fast as of right now, you should check the weather forecast.
+Oh, I'm so funny. . .
