@@ -894,7 +894,7 @@ h6.lighter {
 
 /* BOOTSTRAP SPECIFIC CLASSES
  * -------------------------- */
- 
+
 /*--search--*/
 input[type="search"] {
     -webkit-box-sizing: content-box;
@@ -2324,7 +2324,7 @@ ol.CodeRay li {
 button.menu-button {
   position: absolute;
   top: 10px;
-  right: 10px;
+  left: 10px;
   width: 40px;
   height: 40px;
   z-index: 1000;
@@ -2386,7 +2386,7 @@ a#slide{
     width:40px;
     height:40px;
     top:10px;
-    left:10px;
+    right:10px;
     background-image: url(/images/ma-logo.png);
     background-size: cover;
     border-radius:3px;
@@ -2416,7 +2416,7 @@ a#slide.slide:after{
     width:298px;
     padding:40px 30px 0;
     top:0;
-    left:-298px;
+    right: -298px;
     background:#191918;
     z-index:20
     }
@@ -2500,16 +2500,16 @@ a#slide.slide:after{
 -webkit-animation-delay:.5s;}.fade{-webkit-animation-name:fade;-moz-animation-name:fade;-o-animation-name:fade;animation-name:fade}
 
 #sidebar.slide{
-    left:0
+    right:0
     }
 
 a#slide.slide{
-    left:308px;
+    right:308px;
     pointer-events:none
     }
 
 body.slide{
-    left:298px;
+    right:298px;
     overflow:hidden
     }
 
@@ -2526,7 +2526,7 @@ body.slide{
 
 #fade.slide{
     pointer-events:auto;
-    left:298px;
+    right:298px;
     background:rgba(0,0,0,.2)
     }
 
