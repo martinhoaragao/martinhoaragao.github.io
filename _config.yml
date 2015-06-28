@@ -29,7 +29,7 @@ owner:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Martinho Aragão is an annoying and curious fellow. He's still writing what is ought to go here. So what you are reading right now is basically worthless.
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        martinhoaragao
+  twitter:        
   facebook:
   github:         martinhoaragao
   stackexchange:
@@ -37,7 +37,7 @@ owner:
   instagram:
   flickr:
   tumblr:
-  google_plus:    martinhoaragao
+  google_plus:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-64330582-1
