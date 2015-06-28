@@ -1,8 +1,7 @@
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="{{ site.url }}/assets/js/scripts.min.js"></script>
-<script type="text/javascript" src="{{ site.url }}/assets/js/waypoints.min.js"></script>
-<script type="text/javascript" src="{{ site.url }}/assets/js/script.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+{% javascript app %}
+
+
 <script type='text/javascript'>console.log("HMFaysal Omega Theme Version 2.0");</script>
 <script type='text/javascript'>console.log("https://alum.mit.edu/www/hmfaysal");</script>
 <script type='text/javascript'>$(document).ready(function(){$(".time").text(function(a,b){return Math.round(parseFloat(b))})});</script>
@@ -30,22 +29,23 @@ $("a#click-pages").click(function(){
 });
 
 /*      End-Slides      */
-
 </script>
 
 {% if site.search %}
 <!-- Jekyll Simple Search option -->
 <script>
-  $(document).ready(function() {
-      $('.search-field').simpleJekyllSearch({
-          jsonFile : '{{ site.url }}/search.json',
-          searchResults : '.search-results',
-          template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
-          noResults: '<p>Nothing found.</p>'
-        });
-  });
 
-  $(document).ready(function() {
+// Simple Search options
+$(document).ready(function() {
+		$('.search-field').simpleJekyllSearch({
+				jsonFile : '{{ site.url }}/search.json',
+				searchResults : '.search-results',
+				template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
+				noResults: '<p>Nothing found.</p>'
+			});
+});
+
+  (function( $, window, undefined ) {
 
      var bs = {
           close: $(".fa-times-circle"),
@@ -71,7 +71,7 @@ $("a#click-pages").click(function(){
     $(document).click(function(event) {
         if(!$(event.target).closest('.search-form').length
         && !$(event.target).closest('.dosearch').length) {
-            if($('.search-form').hasClass('active')) {
+            if(bs.searchform.hasClass('active')) {
                 close();
             }
         }
@@ -79,6 +79,13 @@ $("a#click-pages").click(function(){
 
     bs.close.on('click', close);
 
+    $(document).keyup(function(e) {
+
+      if (e.keyCode == 27) {
+        if(bs.searchform.hasClass('active'))
+          close();
+      }
+    });
 
   })( jQuery, window );
 </script>
