@@ -95,6 +95,11 @@ end
 
 # Adapted from https://github.com/willkoehler/my_blog/blob/master/Rakefile
 # usage JEKYLL_ENV=production bundle exec rake site:publish
+require "rubygems"
+require "tmpdir"
+require "bundler/setup"
+require "jekyll"
+
 namespace :site do
   desc "Generate blog files"
   task :generate do
