@@ -19,13 +19,13 @@ fin_color:        "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:
+url: http://martinhoaragao.me
 
 # Owner/author information
 owner:
   name:           Martinho Aragão
   avatar:         ma.jpg
-  email:          martinhoaragao@live.com
+  email:          martinhoaragao+website@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Martinho Aragão is an annoying and curious fellow. He's still writing what is ought to go here. So what you are reading right now is basically worthless.
   # Social networking links used in footer. Update and remove as you like.

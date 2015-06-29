@@ -93,6 +93,8 @@ task :newpage, :title do |t, args|
  end
 end
 
+# Adapted from https://github.com/willkoehler/my_blog/blob/master/Rakefile
+# usage JEKYLL_ENV=production bundle exec rake site:publish
 namespace :site do
   desc "Generate blog files"
   task :generate do
