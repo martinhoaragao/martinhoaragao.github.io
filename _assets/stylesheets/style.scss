@@ -79,8 +79,8 @@ h6 {
 /* - Links - */
 a {
   text-decoration: none;
-}
 @include transition(color 0.2s);
+}
 a:hover {
   text-decoration: none;
 }
@@ -213,11 +213,11 @@ q {
   font-size: 14px;
   word-break: normal;
   border: 0;
-}
 @include hyphens(none);
+}
 pre {
-
-}@include text-shadow(none);
+@include text-shadow(none);
+}
 /* - Font weight classes - */
 .black {
   font-weight: bolder !important;
@@ -907,15 +907,6 @@ input[type="search"] {
 input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button {
     -webkit-appearance: none;
 }
-.dosearch {
-    display: block;
-    padding: 6px 10px;
-    color: #fff;
-    cursor: pointer;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-}
 
 .search-form {
     position: relative;
@@ -1006,7 +997,7 @@ body.search-overlay:after {
     content: '';
 }
 
-.no-js .dosearch {
+.no-js {
     display: none;
 }
 .search-wrapper {
@@ -1605,8 +1596,7 @@ img.mfp-img {
 }
 
 @media screen and (max-width:800px) and (orientation:landscape),screen and (max-height:300px) {
-{
-}
+
 
 .mfp-img-mobile .mfp-image-holder {
     padding-right: 0;
@@ -2354,7 +2344,7 @@ button.menu-button {
 }
 button.menu-button:hover {
   background-color: #39c492 ;
-  color: #fff
+  color: #fff;
   box-shadow: rgba(0,0,0,0.2) 0 0 0 3px;
 }
 
@@ -2374,38 +2364,11 @@ a,
 #fade,
 body {
     -webkit-transition:all .25s ease;
-    transition:all .25s ease
+    transition:all .25s ease;
     }
-
 
 /*      End-Setting     */
 
-a#slide{
-    position:fixed;
-    display:block;
-    width:40px;
-    height:40px;
-    top:10px;
-    right:10px;
-    background-image: url(/images/ma-logo.png);
-    background-size: cover;
-    border-radius:3px;
-    z-index:31
-    }
-
-a#slide:hover{
-    background:#39c492
-    }
-
-a#slide.slide:after{
-    position:absolute;
-    top:11px;
-    left:50%;
-    width:40px;
-    height:40px;
-    margin:0 0 0 -20px;
-    vertical-align:middle
-    }
 
 /*      Sidebar     */
 
@@ -2433,26 +2396,6 @@ a#slide.slide:after{
     margin:40px 0 39px;
     background:#242424;
     border:0
-    }
-
-
-#sidebar #navigation hr{
-    margin:31px 0 38px
-    }
-
-#sidebar #navigation li{
-    margin:0;
-    list-style-type:none
-    }
-
-#sidebar #navigation li a{
-    font:700 16px/1em "Cambria";
-    text-transform: uppercase;;
-    color:#b3b3b1
-    }
-
-#sidebar #navigation li a:hover{
-    color:#ffffff
     }
 
 #sidebar #navigation #slide-pages,
@@ -2567,15 +2510,14 @@ body.slide{
     .entry .captions,
     .entry .details,
     #permalink .permalink-box{
-        width:90%
+        width:90%;
         }
-
+}
 
 @media screen and (max-width:500px){
 
     a#slide{
-        position:absolute
+        position:absolute;
         }
-
-
+}
 /*      End-Responsive      */

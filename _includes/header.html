@@ -7,7 +7,25 @@
 </div><!-- ./search-wrapper -->{% endif %}
 
 <div id="fade"></div>
-<a id="slide" class="animated fade"></a>
+<nav class="nav">
+  <ul class="list-inline nav-list">
+    {% for link in site.links %}
+      <li>
+        {% if link.external %}
+          <a href="{{ link.url }}"><i class="fa fa-home fa-lg"></i></a>
+        {% else %}
+          <a href="{{ site.url }}{{ link.url }}"><i class="fa fa-{{ link.icon }} fa-lg"></i></a>
+        {% endif %}
+      </li>
+    {% endfor %}
+    {% if site.search %}
+      <li>
+        <i class="fa fa-search dosearch fa-lg"></i>
+      </li>
+    {% endif %}
+  </ul>
+</nav>
+<!--
 <aside id="sidebar">
     <nav id="navigation">
     <h2>MENU</h2>
@@ -24,15 +42,11 @@
 
 
 </aside>
+-->
 {% if page.imagefeature %}
   <header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url }}/images/{{ page.imagefeature }})" itemscope itemtype="http://schema.org/Organization">{% if page.imagecredit %}<span class="image-credit">Photo Credit: <a href="{{ page.imagecreditlink }}" target="_blank">{{ page.imagecredit }}</a></span>{% endif %}
 {% else %}
   <header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url }}/images/{{ site.default_bg }})" itemscope itemtype="http://schema.org/Organization">
-{% endif %}
-{% if site.search %}
-    <button class="menu-button animated fade dosearch">
-        <i class="fa fa-search"></i>
-    </button>
 {% endif %}
 {% if page.headline %}
     <div class="inner">

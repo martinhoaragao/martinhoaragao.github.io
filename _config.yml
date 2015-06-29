@@ -29,7 +29,7 @@ owner:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Martinho Aragão is an annoying and curious fellow. He's still writing what is ought to go here. So what you are reading right now is basically worthless.
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
+  twitter:
   facebook:
   github:         martinhoaragao
   stackexchange:
@@ -50,17 +50,13 @@ bing_verify:
 links:
   - title: Home
     url: /
-    external: false
     icon: home
-  - title: Documentation
-    url: /documentation
-    icon: book
-  - title: Tags
-    url: /tags
-    icon: tags
   - title: Stalk me
     url: /about
     icon: user-secret
+  - title: Tags
+    url: /tags
+    icon: tags
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Lisbon
