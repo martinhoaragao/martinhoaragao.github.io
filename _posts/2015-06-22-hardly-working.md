@@ -4,7 +4,6 @@ type: status
 title: "Hardly Working"
 description: "Refactoring and adapting what you're seeing!"
 tags:
- - maravilhoso
  - status
 imagefeature: dunes-old.jpg
 comments: true
