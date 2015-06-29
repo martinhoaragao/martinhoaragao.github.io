@@ -1,16 +1,19 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {% for link in site.links %}{% if link.external %}{% else %}
+    
     <url>
-        <loc>{{ site.url }}{{ link.url }}</loc>
-    </url>{% endif %}{% endfor %}
-
-    {% for post in site.posts %}
-    <url>
-        <loc>{{ site.url }}{{ post.url }}</loc>
+        <loc>http://martinhoaragao.me/</loc>
     </url>
-    {% endfor %}
+    <url>
+        <loc>http://martinhoaragao.me/about</loc>
+    </url>
+    <url>
+        <loc>http://martinhoaragao.me/tags</loc>
+    </url>
+
+    
+    <url>
+        <loc>http://martinhoaragao.me/hardly-working</loc>
+    </url>
+    
 </urlset>
