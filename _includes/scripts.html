@@ -37,6 +37,13 @@ $("a#click-pages").click(function(){
 
 // Simple Search options
 $(document).ready(function() {
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-field'),
+    resultsContainer: document.getElementById('search-results'),
+    json: '{{ site.url }}/search.json',
+    searchResultTemplate: '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
+    noResultsText: '<p>Nothing found.</p>'
+  });
 		$('.search-field').simpleJekyllSearch({
 				jsonFile : '{{ site.url }}/search.json',
 				searchResults : '.search-results',

@@ -4,7 +4,7 @@
 	{% for post in site.posts %}
 		{
 		  "title"     : "{{ post.title | escape }}",
-		  "desc"   		: "{{ post.description }}",
+		  "desc"   		: "{{ post.description | escape }}",
 			"tags"      : "{{ post.tags | join: ', ' }}",
 		  "url"       : "{{ site.url }}{{ post.url }}",
 		  "date"      : "{{ post.date }}",
