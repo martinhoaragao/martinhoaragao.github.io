@@ -25,24 +25,6 @@
     {% endif %}
   </ul>
 </nav>
-<!--
-<aside id="sidebar">
-    <nav id="navigation">
-    <h2>MENU</h2>
-    <hr>
-{% for link in site.links %}
-            <li>{% if link.external %}
-                    <a href="{{ link.url }}">{{ link.title }}</a>
-                {% else %}
-                    <a href="{{ site.url }}{{ link.url }}"><i class="fa fa-{{ link.icon }}"></i> {{ link.title }}</a>
-                {% endif %} </li>
-{% endfor %}
-           <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss"></i> Feed</a></li>
-    </nav>
-
-
-</aside>
--->
 {% if page.imagefeature %}
   <header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url }}/images/{{ page.imagefeature }})" itemscope itemtype="http://schema.org/Organization">{% if page.imagecredit %}<span class="image-credit">Photo Credit: <a href="{{ page.imagecreditlink }}" target="_blank">{{ page.imagecredit }}</a></span>{% endif %}
 {% else %}
