@@ -1,9 +1,9 @@
 ---
 layout: home
 title: Latest Posts
-description: "The personal blog of Hossain Mohd. Faysal, a doctoral candidate in Electrical Engineering at University of Pennsylvania."
-headline: An Engineer's Diary
-tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsylvania, doha, Qatar]
+description: "Martinho Aragão's personal website, about programming, entrepreneurship, and all sorts of random topics."
+headline: A jack of all trade's Diary
+tags: [Martinho, Aragão, martinhoaragao, engineer, entrepreneur, programmer]
 ---
 {% if site.paginate %}
 	{% for post in paginator.posts %}
@@ -57,7 +57,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
       </div>
     </div>
 	{% endif %}
-	
+
 {% else %}
 	{% for post in site.posts %}
 		{% assign readtime = post.content | strip_html | number_of_words | append: '.0' | divided_by:site.wpm %}
