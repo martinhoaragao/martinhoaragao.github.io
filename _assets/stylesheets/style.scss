@@ -17,6 +17,7 @@
 /* - Body typography - */
 body {
   -webkit-font-smoothing: antialiased;
+  line-height: 2em;
 }
 /* - Headers - */
 h1,
@@ -240,7 +241,7 @@ pre {
   line-height: 24px;
 }
 .super {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: bold;
   line-height: 1;
   text-transform: uppercase;

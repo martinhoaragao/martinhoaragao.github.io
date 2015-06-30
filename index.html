@@ -1,9 +1,9 @@
 ---
 layout: home
 title: Latest Posts
-description: "Martinho Aragão's personal website, about programming, entrepreneurship, and all sorts of random topics."
+description: "Martinho Aragão's personal website, about programming, entrepreneurship, and all sorts of random stuff."
 headline: A jack of all trade's Diary
-tags: [Martinho, Aragão, martinhoaragao, engineer, entrepreneur, programmer]
+tags: [Martinho, Aragão, martinhoaragao, engineer, entrepreneur, developer]
 ---
 {% if site.paginate %}
 	{% for post in paginator.posts %}
@@ -16,23 +16,23 @@ tags: [Martinho, Aragão, martinhoaragao, engineer, entrepreneur, programmer]
 		{% assign posttime = post.date | date: "%Y%m%d" %}
 
 		{% if post.type == 'quote' %}
-			{% include quote.slim %}
+			{% include types/quote.html %}
     {% endif %}
 
     {% if post.type == 'status' %}
-			{% include types/status.slim %}
+			{% include types/status.html %}
     {% endif %}
 
     {% if post.type == 'video' %}
-			{% include video.slim %}
+			{% include types/video.html %}
   	{% endif %}
 
   	{% if post.type == 'photo' %}
-  		{% include photo.slim %}
+  		{% include types/photo.html %}
   	{% endif %}
 
     {% if post.type != 'video' and post.type != 'status' and post.type != 'quote' and post.type != 'photo' %}
-			{% include normal.slim %}
+			{% include types/normal.html %}
 		{% endif %}
 
 	{% endfor %}
