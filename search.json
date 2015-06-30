@@ -1,6 +1,15 @@
 [
 	
 		{
+		  "title"     : "Worse than ever",
+		  "desc"   		: "Is it any better?",
+			"tags"      : "status",
+		  "url"       : "http://martinhoaragao.me/worse-than-ever",
+		  "date"      : "2015-06-30 00:00:00 +0100",
+		  "shortdate" : "June 30, 2015"
+		} ,
+	
+		{
 		  "title"     : "Hardly Working",
 		  "desc"   		: "Refactoring and adapting what you&#39;re seeing!",
 			"tags"      : "status",

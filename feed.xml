@@ -4,13 +4,73 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://martinhoaragao.me/feed.xml" />
 <link rel="alternate" type="text/html" href="http://martinhoaragao.me" />
-<updated>2015-06-30T00:54:19+01:00</updated>
+<updated>2015-06-30T03:44:23+01:00</updated>
 <id>http://martinhoaragao.me/</id>
 <author>
   <name>Martinho Aragão</name>
   <uri>http://martinhoaragao.me/</uri>
   <email>martinhoaragao+website@gmail.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Worse than ever]]></title>
+  <link>http://martinhoaragao.me/worse-than-ever</link>
+  <id>http://martinhoaragao.me/worse-than-ever</id>
+  <published>2015-06-30T00:00:00+01:00</published>
+  <updated>2015-06-30T00:00:00+01:00</updated>
+  <author>
+    <name>Martinho Aragão</name>
+    <uri>http://martinhoaragao.me</uri>
+    <email>martinhoaragao+website@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;Building on &lt;a href=&quot;http://willkoehler.net/2014/08/26/save-50-hours-setting-up-your-jekyll-blog.html&quot;&gt;Will Koehler’s post&lt;/a&gt;, I’ve taken the long way.
+By that, I mean I chose to personalise my blog, after all it’s an opportunity to get to know not only Jekyll, but also SEO and Javascript, it is where I intend to test out new things.
+So, after kinda like a robot myself, I settled on the amazing &lt;a href=&quot;http://www.hossainmohdfaysal.com/hmfaysal-omega-theme/&quot;&gt;HMFAYSAL Omega Theme&lt;/a&gt; yet, despite the amazing design, which I could never reach by myself, the code seemed messier than my own. Though thanks to that, I get to refactor a project!&lt;/p&gt;
+
+&lt;p&gt;Here is the progress so far:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Update to new version
+    &lt;ul&gt;
+      &lt;li&gt;Font Awesome&lt;/li&gt;
+      &lt;li&gt;Bootstrap&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Simplify to Minimal style
+    &lt;ul&gt;
+      &lt;li&gt;Navbar&lt;/li&gt;
+      &lt;li&gt;Footer&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Remove Categories&lt;/li&gt;
+  &lt;li&gt;Fix 404 Error page&lt;/li&gt;
+  &lt;li&gt;Add rake deploy by command&lt;/li&gt;
+  &lt;li&gt;Add minify and robots.txt&lt;/li&gt;
+  &lt;li&gt;Improve search - by tag, quit with esc or mouse outside&lt;/li&gt;
+  &lt;li&gt;Create about page&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To Do:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Finish splitting into assets pipeline
+    &lt;ul&gt;
+      &lt;li&gt;Sass by sections&lt;/li&gt;
+      &lt;li&gt;JS in separate files&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Fix data Errors&lt;/li&gt;
+  &lt;li&gt;Evaluate minimal design changes&lt;/li&gt;
+  &lt;li&gt;Check cross browser&lt;/li&gt;
+  &lt;li&gt;Clean files&lt;/li&gt;
+  &lt;li&gt;Do my first actual post!&lt;/li&gt;
+  &lt;li&gt;Other stuff that I forgot&lt;/li&gt;
+  &lt;li&gt;Fix rake new post&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://martinhoaragao.me/worse-than-ever&quot;&gt;Worse than ever&lt;/a&gt; was originally published by Martinho Aragão at &lt;a href=&quot;http://martinhoaragao.me&quot;&gt;Martinho Aragão&lt;/a&gt; on June 30, 2015.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>

@@ -3,6 +3,11 @@ callback([
   {
     "text": "Hardly Working",
     "href": "http://martinhoaragao.me/hardly-working"
+  } ,
+
+  {
+    "text": "Worse than ever",
+    "href": "http://martinhoaragao.me/worse-than-ever"
   } 
 
 ])
