@@ -53,7 +53,7 @@ links:
     icon: home
   - title: Stalk me
     url: /about
-    icon: user-secret
+    icon: user
   - title: Tags
     url: /tags
     icon: tags
