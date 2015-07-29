@@ -2,26 +2,70 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Martinho Aragão</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://martinhoaragao.me/feed.xml" />
-<link rel="alternate" type="text/html" href="http://martinhoaragao.me" />
-<updated>2015-06-30T03:54:51+01:00</updated>
-<id>http://martinhoaragao.me/</id>
+<link rel="self" type="application/atom+xml" href="/feed.xml" />
+<link rel="alternate" type="text/html" href="" />
+<updated>2015-07-29T17:10:23+01:00</updated>
+<id>/</id>
 <author>
   <name>Martinho Aragão</name>
-  <uri>http://martinhoaragao.me/</uri>
+  <uri>/</uri>
   <email>martinhoaragao+website@gmail.com</email>
 </author>
 
 
 <entry>
+  <title type="html"><![CDATA[Hello, world!]]></title>
+  <link>/hello-world</link>
+  <id>/hello-world</id>
+  <published>2015-07-29T00:00:00+01:00</published>
+  <updated>2015-07-29T00:00:00+01:00</updated>
+  <author>
+    <name>Martinho Aragão</name>
+    <uri></uri>
+    <email>martinhoaragao+website@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;Yo!&lt;/p&gt;
+
+&lt;p&gt;Welcome to my website, as you can see, and despite my initial doubts, it became a blog.&lt;/p&gt;
+
+&lt;p&gt;So through this post I mean to cover the reasoning behind this webpage, my goals, fears and what I have in mind for the future.&lt;/p&gt;
+
+&lt;p&gt;But first things first. Why did I start this?&lt;/p&gt;
+
+&lt;p&gt;Although, I tried to do a plain single paged website about myself, I found that I was not able to capture what I was all about. This might sound quite peculiar, even more so knowing that I was never a fan of blogging, but I understood I had more to gain by embracing this as a challenge. So here go some of the reasons I keep talking about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;English - A way to properly practice my English writing skills while also motivating me to read more;&lt;/li&gt;
+  &lt;li&gt;Playground - Somewhere I could apply proper CSS and JS with no time constraints;&lt;/li&gt;
+  &lt;li&gt;Organisation - Having to structure each post before writing is certainly a way to speed up how I organise what I do;&lt;/li&gt;
+  &lt;li&gt;Counter procrastination - Since I am also affected by procrastination, having to write a post about every 2 week is a way to counter my own habits, else the internet will register I have failed;&lt;/li&gt;
+  &lt;li&gt;Controlled share environment - A fancy way for saying I am not a fan of posting in Social Media as I don’t find them to be is not the most auspicious place to talk about serious stuff.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Truth be said, it has been already quite tough for me to do this post from start to end, as some people might attest, I’ve scrapped it too often, hopefully after a few times doing it should be less of an hassle. Anyway, I’ve already scheduled my next posts:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Refactor Blog - What I did to change the template;&lt;/li&gt;
+  &lt;li&gt;YME - My last 2 years in Young Minho Enterprise;&lt;/li&gt;
+  &lt;li&gt;Nutrium - Startup Talk;&lt;/li&gt;
+  &lt;li&gt;Brainstorming - How I prepare for a post.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now back to the code, so in a few weeks I can post about the Blog!&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/hello-world&quot;&gt;Hello, world!&lt;/a&gt; was originally published by Martinho Aragão at &lt;a href=&quot;&quot;&gt;Martinho Aragão&lt;/a&gt; on July 29, 2015.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
   <title type="html"><![CDATA[Worse than ever]]></title>
-  <link>http://martinhoaragao.me/worse-than-ever</link>
-  <id>http://martinhoaragao.me/worse-than-ever</id>
+  <link>/worse-than-ever</link>
+  <id>/worse-than-ever</id>
   <published>2015-06-30T00:00:00+01:00</published>
   <updated>2015-06-30T00:00:00+01:00</updated>
   <author>
     <name>Martinho Aragão</name>
-    <uri>http://martinhoaragao.me</uri>
+    <uri></uri>
     <email>martinhoaragao+website@gmail.com</email>
   </author>
   <content type="html">&lt;p&gt;Building on &lt;a href=&quot;http://willkoehler.net/2014/08/26/save-50-hours-setting-up-your-jekyll-blog.html&quot;&gt;Will Koehler’s post&lt;/a&gt;, I’ve taken the long way.
@@ -69,19 +113,19 @@ So, after kinda like a robot myself, I settled on the amazing &lt;a href=&quot;h
   &lt;li&gt;Fix rake new post&lt;/li&gt;
 &lt;/ul&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://martinhoaragao.me/worse-than-ever&quot;&gt;Worse than ever&lt;/a&gt; was originally published by Martinho Aragão at &lt;a href=&quot;http://martinhoaragao.me&quot;&gt;Martinho Aragão&lt;/a&gt; on June 30, 2015.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/worse-than-ever&quot;&gt;Worse than ever&lt;/a&gt; was originally published by Martinho Aragão at &lt;a href=&quot;&quot;&gt;Martinho Aragão&lt;/a&gt; on June 30, 2015.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Hardly Working]]></title>
-  <link>http://martinhoaragao.me/hardly-working</link>
-  <id>http://martinhoaragao.me/hardly-working</id>
+  <link>/hardly-working</link>
+  <id>/hardly-working</id>
   <published>2015-06-22T00:00:00+01:00</published>
   <updated>2015-06-22T00:00:00+01:00</updated>
   <author>
     <name>Martinho Aragão</name>
-    <uri>http://martinhoaragao.me</uri>
+    <uri></uri>
     <email>martinhoaragao+website@gmail.com</email>
   </author>
   <content type="html">&lt;p&gt;Hardly Working&lt;/p&gt;
@@ -93,7 +137,7 @@ So, after kinda like a robot myself, I settled on the amazing &lt;a href=&quot;h
 &lt;p&gt;But don’t stop coming here just because of that! I shall be as swift as the wind, although I’m neither saying there is wind, nor that it is fast as of right now, you should check the weather forecast.
 Oh, I’m so funny. . .&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://martinhoaragao.me/hardly-working&quot;&gt;Hardly Working&lt;/a&gt; was originally published by Martinho Aragão at &lt;a href=&quot;http://martinhoaragao.me&quot;&gt;Martinho Aragão&lt;/a&gt; on June 22, 2015.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/hardly-working&quot;&gt;Hardly Working&lt;/a&gt; was originally published by Martinho Aragão at &lt;a href=&quot;&quot;&gt;Martinho Aragão&lt;/a&gt; on June 22, 2015.&lt;/p&gt;</content>
 </entry>
 
 </feed>

@@ -2,12 +2,17 @@ callback([
 
   {
     "text": "Hardly Working",
-    "href": "http://martinhoaragao.me/hardly-working"
+    "href": "/hardly-working"
   } ,
 
   {
     "text": "Worse than ever",
-    "href": "http://martinhoaragao.me/worse-than-ever"
+    "href": "/worse-than-ever"
+  } ,
+
+  {
+    "text": "Hello, world!",
+    "href": "/hello-world"
   } 
 
 ])

@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>http://martinhoaragao.me/</loc>
+        <loc>/</loc>
     </url>
     <url>
-        <loc>http://martinhoaragao.me/about</loc>
+        <loc>/about</loc>
     </url>
     <url>
-        <loc>http://martinhoaragao.me/tags</loc>
+        <loc>/tags</loc>
     </url>
 
     
     <url>
-        <loc>http://martinhoaragao.me/worse-than-ever</loc>
+        <loc>/hello-world</loc>
     </url>
     
     <url>
-        <loc>http://martinhoaragao.me/hardly-working</loc>
+        <loc>/worse-than-ever</loc>
+    </url>
+    
+    <url>
+        <loc>/hardly-working</loc>
     </url>
     
 </urlset>
