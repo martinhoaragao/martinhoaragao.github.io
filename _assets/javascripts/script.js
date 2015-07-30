@@ -22,15 +22,14 @@
 // Init waypoints for header and footer animations
 function waypointsInit() {
     $('#masthead').waypoint(function(direction) {
-       $(this).addClass('animation-on');
+       $('#masthead').addClass('animation-on');
     });
-
-    $('#main').waypoint(function(direction) {
+    $('#masthead').waypoint(function(direction) {
        $('#masthead').toggleClass('animation-on');
-    });
+    }, { offset: '-30%' });
 
     $('#footer').waypoint(function(direction) {
-      $(this).toggleClass('animation-on');
+      $('#footer').toggleClass('animation-on');
     } , { offset: 'bottom-in-view' });
 }
 
