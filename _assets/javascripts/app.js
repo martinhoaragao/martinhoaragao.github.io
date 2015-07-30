@@ -1,4 +1,3 @@
-//= require scripts.min
 //= require script
 
 //= require vendor/bootstrap-tooltip

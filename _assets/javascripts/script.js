@@ -17,6 +17,11 @@
         // Waypoints
         waypointsInit();
 
+        // Mark Videos for fitVids
+        markVideos();
+
+        // Mark Images for magnificPopup
+        markImages();
     });
 
 // Init waypoints for header and footer animations
@@ -46,6 +51,18 @@ function postInit() {
         $('#masthead').css('backgroundImage','url('+featured+')');
         $('#footer').css('backgroundImage','url('+featured+')');
     };
+}
+
+function markVideos () {
+  $("article").fitVids();
+}
+
+function markImages () {
+  $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
+
+  $(".image-popup").magnificPopup({
+    type: "image"
+  });
 }
 
 }(jQuery));
