@@ -1,4 +1,5 @@
 // Jekyll Simple Search options
+// Only included at scripts.html due to config options
 $(document).ready(function() {
     SimpleJekyllSearch({
         searchInput: document.getElementById('search-field'),
