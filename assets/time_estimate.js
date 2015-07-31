@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".time").text(function(t,n){return Math.round(parseFloat(n))})});
