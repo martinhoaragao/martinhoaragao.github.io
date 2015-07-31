@@ -1,0 +1,817 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700)
+
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,400italic,700)
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,100,700)
+
+@import url(http://fonts.googleapis.com/css?family=Sacramento)
+
+/*!
+ * HMFAYSAL OMEGA v1.0.1
+ * Responsive Jekyll Theme
+ *
+ * Copyright 2014 Hossain Mohd Faysal
+ *
+ * Designed and built with all the love in the world by @hmfaysal
+/* ------------------------
+/* GENERAL TYPOGRAPHY RULES
+/* ------------------------
+/* - Theme fonts -
+body
+  font-family: 'Fira Sans', serif
+
+body input,
+body textarea,
+body .btn,
+body button
+  font-family: 'Fira Sans', serif
+
+.lighter
+  font-weight: 200 !important
+
+.light
+  font-weight: 300 !important
+
+.lead
+  font-weight: 400
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+  font-family: 'Raleway', sans-serif
+
+h1.lighter,
+h2.lighter,
+h3.lighter,
+h4.lighter,
+h5.lighter,
+h6.lighter
+  font-weight: 200 !important
+
+/* - Body typography -
+body
+  -webkit-font-smoothing: antialiased
+  line-height: 2em
+
+/* - Headers -
+
+h1,
+h2,
+h3,
+h4,
+h5
+  margin: 0
+
+h1
+  font-size: 38px
+  line-height: 48px
+  margin-bottom: 24px
+
+h1 small
+  font-size: 26px
+
+h2
+  font-size: 26px
+  line-height: 24px
+  margin-top: 24px
+  margin-bottom: 24px
+
+h2 small
+  font-size: 18px
+
+h3
+  font-size: 20px
+  line-height: 24px
+  margin-top: 24px
+  margin-bottom: 20px
+  text-transform: uppercase
+
+h3 small
+  font-size: 13px
+
+h4,
+h5,
+h6
+  line-height: 24px
+
+h4
+  margin-top: 24px
+  margin-bottom: 16px
+  font-size: 16px
+  text-transform: uppercase
+
+h4 small
+  font-size: 16px
+
+h5
+  font-size: 16px
+  text-transform: uppercase
+
+h6
+  font-size: 13px
+  text-transform: uppercase
+  margin: 0
+
+/* - Links -
+a
+  text-decoration: none
+  +transition(color 0.2s)
+
+a:hover
+  text-decoration: none
+
+.more-link
+  line-height: 18px
+  font-size: 18px
+  font-style: italic
+
+/* - Lead text -
+.lead
+  font-size: 21px
+  line-height: 2em
+
+/* - Blockquote -
+blockquote
+  padding-left: 0
+  border: 0
+  position: relative
+
+blockquote:before
+  content: ""
+  position: absolute
+  top: 12px
+  bottom: 12px
+  left: -24px
+  width: 4px
+
+.cursive
+  font-family: 'Sacramento', cursive
+  color: #17e4d8
+  font-size: 34px
+  text-align: center
+
+/* - Form elements -
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input
+  -webkit-appearance: none
+  box-shadow: none
+  text-shadow: none !important
+
+select:focus,
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus
+  outline: none
+
+select
+  line-height: 24px
+
+input[type="submit"]
+  text-shadow: none !important
+  font-weight: normal
+  outline: none
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+  -webkit-appearance: none
+  margin: 0
+
+.fancy-select
+  display: inline-block
+  position: relative
+  margin-bottom: 24px
+
+.fancy-select select
+  margin-bottom: 0
+  width: 100%
+  min-width: 180px
+
+.fancy-select:after
+  display: block
+  position: absolute
+  content: "\f107"
+  font-family: 'FontAwesome'
+  width: 1em
+  height: 1em
+  line-height: 1em
+  text-align: center
+  z-index: 1
+  top: 50%
+  right: 0.5em
+  margin-top: -0.5em
+
+/* - Figures -
+figure
+  margin: 0 0 24px
+
+/* - Pre and code -
+
+pre,
+code,
+var,
+kbd,
+samp,
+tt,
+dir,
+listing,
+plaintext,
+xmp,
+abbr,
+acronym,
+q
+  font-size: 14px
+  word-break: normal
+  border: 0
+  +hyphens(none)
+
+pre
+  +text-shadow(none)
+
+/* - Font weight classes -
+.black
+  font-weight: bolder !important
+
+.bold
+  font-weight: bold !important
+
+.regular
+  font-weight: normal !important
+
+.light
+  font-weight: lighter !important
+
+.lighter
+  font-weight: lighter !important
+
+/* - Font size classes -
+.small
+  font-size: 14px
+  line-height: 24px
+
+.super
+  font-size: 40px
+  font-weight: bold
+  line-height: 1
+  text-transform: uppercase
+
+.super.text-center small
+  display: block
+  line-height: 1.5em
+
+.hyper
+  font-size: 72px
+  font-weight: bold
+  text-align: center
+  line-height: 1
+
+/* - Text aligns classes -
+.text-left
+  text-align: left !important
+
+.text-right
+  text-align: right !important
+
+.text-center
+  text-align: center !important
+
+/* - Text transform classes -
+.text-caps
+  text-transform: uppercase !important
+
+.text-italic
+  font-style: italic
+
+/* Responsive typography
+@media (max-width: 767px)
+  h1
+    font-size: 26px
+    line-height: 36px
+  h1 small
+    font-size: 18px
+  h2
+    font-size: 23px
+    line-height: 36px
+  h2 small
+    font-size: 16px
+  h3
+    font-size: 20px
+    line-height: 36px
+  h3 small
+    font-size: 16px
+  blockquote
+    padding-left: 24px
+  blockquote:before
+    left: 0
+  .super
+    font-size: 48px
+    text-align: center
+  .super small
+    margin-top: 12px
+    display: block
+  .hyper
+    font-size: 60px
+  .small-screen-center
+    text-align: center !important
+  .small-screen-margin-bottom
+    margin-bottom: 24px !important
+
+@media (max-width: 480px)
+  .super
+    font-size: 36px
+    line-superheight: 1em
+  .hyper
+    font-size: 48px
+    line-height: 1em
+  .lead
+    font-size: 16px
+
+@media (max-width: 320px)
+  body
+    font-size: 16px
+  h1
+    font-size: 23px
+    line-height: 24px
+  h1 small
+    font-size: 16px
+  h2
+    font-size: 20px
+    line-height: 24px
+  h2 small
+    font-size: 14px
+  h3
+    font-size: 18px
+    line-height: 24px
+  h3 small
+    font-size: 13px
+  .super
+    font-size: 24px
+    line-height: 1
+  .hyper
+    font-size: 36px
+
+/* ------------
+/* THEME COLORS
+/* ------------
+body
+  color: #424143
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.lead
+  color: #1e1e1f
+
+a
+  color: #807f83
+  border-color: #807f83
+
+a:hover
+  color: #67666a
+  border-color: #67666a
+
+blockquote:before
+  background: #57ad68
+
+.post-title
+  color: #807f83
+
+.post-info
+  color: #67666a
+
+.pagination
+  color: #67666a
+
+.bordered-top:after,
+.bordered-bottom:after
+  background-color: #cbc9cf
+
+.overlay:after
+  background-color: rgba(0, 0, 0, 0.65)
+
+#masthead
+  background-color: #1e1e1f
+
+#footer,
+#masthead
+  color: #fff
+
+#footer h1,
+#masthead h1,
+#footer h2,
+#masthead h2,
+#footer p,
+#masthead p
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.75)
+
+#footer h1,
+#masthead h1,
+#footer h2,
+#masthead h2,
+#footer a,
+#masthead a,
+#footer p,
+#masthead p
+  color: #fff
+
+/* ----------------
+/* THEME UTILITITES
+/* ----------------
+
+/* - Theme Backgrounds -
+.blog-background
+  background-repeat: no-repeat
+  background-position: center
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  background-attachment: fixed
+
+@media (max-width: 1024px)
+  .blog-background
+    background-attachment: scroll
+
+/* - Inner allignment -
+.inner
+  display: table-cell
+  vertical-align: top
+  position: relative
+  z-index: 10
+
+.align-middle .inner
+  vertical-align: middle
+
+.align-bottom .inner
+  vertical-align: bottom
+
+@media (max-width: 767px)
+  #masthead .inner
+    top: 0%
+
+/* - Overlay -
+.overlay:after
+  content: ""
+  position: absolute
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+  z-index: 1
+
+/* - Border Classes -
+
+.bordered-top,
+.bordered-bottom
+  position: relative
+
+.bordered-top:after,
+.bordered-bottom:after
+  content: ''
+  display: block
+  position: absolute
+  height: 1px
+  width: 80px
+  left: 50%
+  margin-left: -40px
+
+.bordered-top:after
+  top: 0
+
+.bordered-bottom:after
+  bottom: 0
+
+.social-mini
+  margin: 0
+  padding: 0 0 24px
+  list-style-type: none
+
+.social-mini li
+  display: inline-block
+  font-size: 16px
+  padding: 0 12px
+
+/* - Responsive videos -
+.videoWrapper
+  position: relative
+  padding-bottom: 56.25%
+  /* 16:9
+  padding-top: 25px
+  height: 0
+  margin-bottom: 24px
+
+.videoWrapper iframe
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+
+/* ----------
+/* ANIMATIONS
+/* ----------
+.animated
+  -webkit-animation-fill-mode: both
+  -moz-animation-fill-mode: both
+  -ms-animation-fill-mode: both
+  -o-animation-fill-mode: both
+  animation-fill-mode: both
+  -webkit-animation-duration: 1.5s
+  animation-duration: 1.5s
+  animation-delay: .5s
+  -webkit-animation-delay: .5s
+
+.animated .small,
+.animated .medium,
+.animated .large
+  opacity: 0
+  -webkit-transition-property: all
+  -moz-transition-property: all
+  -o-transition-property: all
+  -ms-transition-property: all
+  transition-property: all
+
+.animated .large
+  -webkit-transition-delay: 0.5s
+  -moz-transition-delay: 0.5s
+  -o-transition-delay: 0.5s
+  -ms-transition-delay: 0.5s
+  transition-delay: 0.5s
+  -webkit-transition-duration: 0.5s
+  -moz-transition-duration: 0.5s
+  -o-transition-duration: 0.5s
+  -ms-transition-duration: 0.5s
+  transition-duration: 0.5s
+
+.animated .medium
+  -webkit-transition-delay: 0.6s
+  -moz-transition-delay: 0.6s
+  -o-transition-delay: 0.6s
+  -ms-transition-delay: 0.6s
+  transition-delay: 0.6s
+  -webkit-transition-duration: 0.5s
+  -moz-transition-duration: 0.5s
+  -o-transition-duration: 0.5s
+  -ms-transition-duration: 0.5s
+  transition-duration: 0.5s
+
+.animated .small
+  -webkit-transition-delay: 0.7s
+  -moz-transition-delay: 0.7s
+  -o-transition-delay: 0.7s
+  -ms-transition-delay: 0.7s
+  transition-delay: 0.7s
+  -webkit-transition-duration: 0.5s
+  -moz-transition-duration: 0.5s
+  -o-transition-duration: 0.5s
+  -ms-transition-duration: 0.5s
+  transition-duration: 0.5s
+
+.animated.from-bottom .small,
+.animated.from-bottom .medium,
+.animated.from-bottom .large
+  opacity: 1
+  -webkit-transform: translateY(100%)
+  -moz-transform: translateY(100%)
+  -o-transform: translateY(100%)
+  -ms-transform: translateY(100%)
+  transform: translateY(100%)
+
+.animated.from-top .small,
+.animated.from-top .medium,
+.animated.from-top .large
+  opacity: 1
+  -webkit-transform: translateY(-100%)
+  -moz-transform: translateY(-100%)
+  -o-transform: translateY(-100%)
+  -ms-transform: translateY(-100%)
+  transform: translateY(-100%)
+
+.animated.animation-on .small,
+.animated.animation-on .medium,
+.animated.animation-on .large
+  -webkit-transform: translateY(0%)
+  -moz-transform: translateY(0%)
+  -o-transform: translateY(0%)
+  -ms-transform: translateY(0%)
+  transform: translateY(0%)
+
+/*!
+ *  Font Awesome 3.2.1
+ *  the iconic font designed for Bootstrap
+ *  ------------------------------------------------------------------------------
+ *  The full suite of pictographic icons, examples, and documentation can be
+ *  found at http://fontawesome.io.  Stay up to date on Twitter at
+ *  http://twitter.com/fontawesome.
+ *
+ *  License
+ *  ------------------------------------------------------------------------------
+ *  - The Font Awesome font is licensed under SIL OFL 1.1 -
+ *    http://scripts.sil.org/OFL
+ *  - Font Awesome CSS, LESS, and SASS files are licensed under MIT License -
+ *    http://opensource.org/licenses/mit-license.html
+ *  - Font Awesome documentation licensed under CC BY 3.0 -
+ *    http://creativecommons.org/licenses/by/3.0/
+ *  - Attribution is no longer required in Font Awesome 3.0, but much appreciated:
+ *    "Font Awesome by Dave Gandy - http://fontawesome.io"
+ *
+ *  Author - Dave Gandy
+ *  ------------------------------------------------------------------------------
+ *  Email: dave@fontawesome.io
+ *  Twitter: http://twitter.com/byscuits
+ *  Work: Lead Product Designer @ Kyruus - http://kyruus.com
+
+/* BOOTSTRAP SPECIFIC CLASSES
+ * --------------------------
+
+.post-list
+  padding: 0
+  margin: 0
+  list-style-type: none
+
+.post-list li
+  padding: 8px 0
+  border-bottom: 1px solid #ccc
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+  *zoom: 1
+
+.post-list li:after,.post-list li:before
+  display: table
+  line-height: 0
+  content: ""
+
+.post-list li:after
+  clear: both
+
+.post-list a>span
+  float: right
+
+.post-list .entry-date
+  display: none
+  font-size: 14px
+  text-transform: uppercase
+
+@media only screen and (min-width: 48em)
+  .post-list .entry-date
+    display: inline
+
+.tag-box
+  padding: 4px 0
+  margin: 0
+  overflow: hidden
+  list-style: none
+  *zoom: 1
+
+.tag-box:after,.tag-box:before
+  display: table
+  line-height: 0
+  content: ""
+
+.tag-box:after
+  clear: both
+
+.tag-box.inline li
+  float: left
+  font-size: 14px
+  line-height: 2.5
+
+.tag-box a
+  padding: 4px 6px
+  margin: 2px
+  text-decoration: none
+  background-color: #e6e6e6
+  -webkit-border-radius: 4px
+  -moz-border-radius: 4px
+  border-radius: 4px
+
+.tag-box a span
+  font-size: 14px
+  vertical-align: super
+
+figure
+  margin: 0
+  *zoom: 1
+
+figure:before,figure:after
+  display: table
+  line-height: 0
+  content: ""
+
+figure:after
+  clear: both
+
+figure img
+  display: block
+  margin-right: auto
+  margin-bottom: 10px
+  margin-left: auto
+
+figure a img
+  filter: gray
+  /* IE6-9
+  -webkit-filter: brightness(100%)
+  /* Google Chrome & Safari 6+
+  -webkit-transform: translate(0, 0)
+  -moz-transform: translate(0, 0)
+  -ms-transform: translate(0, 0)
+  -o-transform: translate(0, 0)
+  transform: translate(0, 0)
+  -webkit-transition-duration: .25s
+  -moz-transition-duration: .25s
+  -o-transition-duration: .25s
+
+figure a img:hover
+  filter: none
+  -webkit-filter: brightness(130%)
+  -webkit-transform: translate(0, -5px)
+  -moz-transform: translate(0, -5px)
+  -ms-transform: translate(0, -5px)
+  -o-transform: translate(0, -5px)
+  transform: translate(0, -5px)
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+
+@media only screen and (min-width: 62.5em)
+  figure.half img
+    float: left
+    width: 49%
+    margin-right: 0.5%
+    margin-left: 0.5%
+  figure.half figcaption
+    clear: left
+
+@media only screen and (min-width: 62.5em)
+  figure.third img
+    float: left
+    width: 32.3%
+    margin-right: 0.5%
+    margin-left: 0.5%
+  figure.third figcaption
+    clear: left
+
+svg:not(:root)
+  overflow: hidden
+
+figcaption
+  padding-top: 10px
+  text-align: center
+  font-size: 14px
+  font-style: italic
+
+#disqus_thread
+  margin-top: 2em
+
+*, *:before, *:after
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+
+body
+  position: relative
+  overflow-x: hidden
+  /*overflow-y:scroll;
+  left: 0
+  right: 0
+  margin: auto
+
+a,
+body
+  -webkit-transition: all .25s ease
+  transition: all .25s ease
+
+/*      End-Setting
