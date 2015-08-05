@@ -45,7 +45,8 @@ So, here you go:
 
 I certainly owe it to [**Young Minho Enterprise**](http://yme.pt){:target="_blank"} for the second, to [**CeSIUM**](http://cesium.di.uminho.pt){:target="_blank"} for the first and, to both of them, for the third.
 Funny though, as an entrepreneur I've do it all, and more!
-That's where [**Nutrium**](http://nutrium.io){:target="_blank"} comes in.
+That's where [**Nutrium**](http://nutrium.io){:target="_blank"} came in.
+Right now, I'm focused on the first and partially the second sections.
 
 All in all, I find it hard to decline a challenge where I can grow.
 What is there to lose?
