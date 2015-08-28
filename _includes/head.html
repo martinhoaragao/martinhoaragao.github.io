@@ -21,9 +21,9 @@
 <meta property="og:site_name" content="{{ site.title }}">
 
 {% if page.imagefeature %}
-<meta property="og:image" content="{{ site.url }}/images/{{ page.imagefeature }}">
+<meta property="og:image" content="http://{{ site.domain }}/images/{{ page.imagefeature }}">
 {% else %}
-<meta property="og:image" content="{{ site.url }}/images/banner.png">
+<meta property="og:image" content="http://{{ site.domain }}/images/banner.png">
 {% endif %}
 
 {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
