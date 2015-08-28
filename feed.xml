@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-08-28T21:10:39+01:00</updated>
+<updated>2015-08-28T21:18:50+01:00</updated>
 <id>/</id>
 <author>
   <name>Martinho Aragão</name>
@@ -112,7 +112,7 @@ Regarding the Rake new posts, changed it to accept arguments in the command-line
 &lt;h3 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h3&gt;
 
 &lt;p&gt;Focus on posting for a while, hopefully adjust quickly to that routine.
-Afterwards get more feedback, and perhaps even review the code again to ensure nothing was left behind.&lt;/p&gt;
+Afterwards get more feedback, and perhaps even review the code again to ensure nothing was left behind. EEh, and don’t look at the config.yml, it’s still messy.&lt;/p&gt;
 
 
   &lt;p&gt;&lt;a href=&quot;/refactor-blog&quot;&gt;Making a template my own&lt;/a&gt; was originally published by Martinho Aragão at &lt;a href=&quot;&quot;&gt;Martinho Aragão&lt;/a&gt; on August 28, 2015.&lt;/p&gt;</content>
