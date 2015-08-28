@@ -81,6 +81,6 @@ So this is mostly the section where I learnt, changing to the assets pipeline re
 ### What's next?
 
 Focus on posting for a while, hopefully adjust quickly to that routine.
-Afterwards get more feedback, and perhaps even review the code again to ensure nothing was left behind.
+Afterwards get more feedback, and perhaps even review the code again to ensure nothing was left behind. EEh, and don't look at the config.yml, it's still messy.
 
 
