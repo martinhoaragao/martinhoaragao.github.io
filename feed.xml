@@ -4,13 +4,119 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-08-07T01:39:31+01:00</updated>
+<updated>2015-08-28T19:48:27+01:00</updated>
 <id>/</id>
 <author>
   <name>Martinho Aragão</name>
   <uri>/</uri>
   <email>martinhoaragao+website@gmail.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Making a template my own]]></title>
+  <link>/refactor-blog</link>
+  <id>/refactor-blog</id>
+  <updated>2015-08-28T00:00:00-00:00</updated>
+  <published>2015-08-28T00:00:00+01:00</published>
+  
+  <author>
+    <name>Martinho Aragão</name>
+    <uri></uri>
+    <email>martinhoaragao+website@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;As I was structuring my website, I came upon many Jekyll templates, some of which I forked.
+One of them, was &lt;a href=&quot;http://willkoehler.net&quot;&gt;Will Koehler’s&lt;/a&gt; a simplistic, intuitive but most importantly neatly coded.
+In fact, he refactored one of the blogs in Jekyll’s list, and wrote a &lt;a href=&quot;http://willkoehler.net/2014/08/26/save-50-hours-setting-up-your-jekyll-blog.html&quot;&gt;post&lt;/a&gt; about what he did.&lt;/p&gt;
+
+&lt;p&gt;So, in the same fashion, I took the long approach and this post is about what I have done to &lt;a href=&quot;https://github.com/hmfaysal/hmfaysal-omega-theme&quot;&gt;HMFAYSAL omega theme&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To begin with, I chose to personalise my blog, for the opportunity to get to know Jekyll and by extension Ruby and Javascript.
+For that reason, even if I had found the perfect theme I would still most likely want to edit a few things just to learn and make it my own.
+As it is, it is also functions as my sandbox to try out new things.
+Though, this last argument is only fully achieved as I do not intend to mass advertise this website at least as of now, instead I have other goals, as I have explained over &lt;a href=&quot;/hello-world&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Back to HMFAYSAL’s theme, I was impressed when I saw its design, clearly one that I would never be able to achieve on my own.
+Well, it’s true that I lack talent in that area, but that would be another story.
+Yet what I noticed was that despite how phenomenal the theme was, the code that built it was messier than what I was used to.
+This can be easily explained by its author background, which you may read more about in the link I provided above.&lt;/p&gt;
+
+&lt;p&gt;So, in no particular order here is what I did thus far:&lt;/p&gt;
+
+&lt;h4 id=&quot;update&quot;&gt;Update&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Font Awesome&lt;/li&gt;
+  &lt;li&gt;Bootstrap&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Changed a few classes in order to keep the same style.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;simplify-design&quot;&gt;Simplify design&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Navbar&lt;/li&gt;
+  &lt;li&gt;Footer&lt;/li&gt;
+  &lt;li&gt;Overall details&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Reduced clutter, instead of clicking to access a menu, placed the buttons I needed on top, and removed the navbar on the footer.
+Also decreased the size of the social buttons along with other small things such as changed fonts and their size.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;remove-categories&quot;&gt;Remove Categories&lt;/h4&gt;
+
+&lt;p&gt;Considering this is a tiny blog about what I do, I had no need for both tags and categories.
+For that reason,and because tags are more versatil, more than one allowed per post, I removed categories.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;fix&quot;&gt;Fix&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;404 Error page&lt;/li&gt;
+  &lt;li&gt;Rake new posts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As far as I recall the links for the error page were outdated.
+Regarding the Rake new posts, changed it to accept arguments in the command-line through spaces.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;add&quot;&gt;Add&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Rake deploy by command by Will Koehler and adjusted to master instead of gh-pages.&lt;/li&gt;
+  &lt;li&gt;Search by tag, quit with esc or click outside&lt;/li&gt;
+  &lt;li&gt;SEO
+    &lt;ul&gt;
+      &lt;li&gt;Minify&lt;/li&gt;
+      &lt;li&gt;Add robots.txt&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Code
+    &lt;ul&gt;
+      &lt;li&gt;Organise into assets pipeline
+        &lt;ul&gt;
+          &lt;li&gt;Change css to sass, and split by sections&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Javascript in separate files&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So this is mostly the section where I learnt, changing to the assets pipeline required me to go through almost every single file, removing unneeded lines and adjusting some to my style.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h3&gt;
+
+&lt;p&gt;Focus on posting for a while, hopefully adjust quickly to that routine.
+Afterwards get more feedback, and perhaps even review the code again to ensure nothing was left behind.&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/refactor-blog&quot;&gt;Making a template my own&lt;/a&gt; was originally published by Martinho Aragão at &lt;a href=&quot;&quot;&gt;Martinho Aragão&lt;/a&gt; on August 28, 2015.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>

@@ -13,6 +13,10 @@
 
     
     <url>
+        <loc>/refactor-blog</loc>
+    </url>
+    
+    <url>
         <loc>/hello-world</loc>
     </url>
     

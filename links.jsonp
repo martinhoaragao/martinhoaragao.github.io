@@ -13,6 +13,11 @@ callback([
   {
     "text": "Hello, world!",
     "href": "/hello-world"
+  } ,
+
+  {
+    "text": "Making a template my own",
+    "href": "/refactor-blog"
   } 
 
 ])

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<!--
+====================================================
+    __  ____  ______________  _______ ___    __
+   / / / /  |/  / ____/   \ \/ / ___//   |  / /
+  / /_/ / /|_/ / /_  / /| |\  /\__ \/ /| | / /
+ / __  / /  / / __/ / ___ |/ /___/ / ___ |/ /___
+/_/ /_/_/  /_/_/   /_/  |_/_//____/_/  |_/_____/
+
+====================================================
+Owner Name: Hossain Mohammad Faysal
+Profile: https://www.facebook.com/hmfaysal
+Version: 1.1
+Description: Awesome dude, awesome life
+====================================================
+-->
+<head>
+<meta charset="utf-8">
+<title>Making a template my own &#8211; Martinho Aragão</title>
+<meta name="description" content="As many before, I have decided to make my own blog, picking a template was not easy, but it took longer to make it my own.">
+<meta name="keywords" content="blog">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Making a template my own">
+<meta property="og:description" content="As many before, I have decided to make my own blog, picking a template was not easy, but it took longer to make it my own.">
+<meta property="og:url" content="/refactor-blog">
+<meta property="og:site_name" content="Martinho Aragão">
+<meta property="og:image" content="/images/posts/refactor.png">
+
+
+
+
+
+<link rel="canonical" href="/refactor-blog">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Martinho Aragão Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Fonts -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="/assets/app.css">
+
+
+
+
+
+<!-- Icons -->
+<link rel="apple-touch-icon" sizes="57x57" href="/images/logos/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/images/logos/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/images/logos/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/images/logos/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/images/logos/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/images/logos/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/logos/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/images/logos/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/logos/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/images/logos/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/logos/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/images/logos/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/images/logos/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/images/logos/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/images/logos/manifest.json">
+<link rel="shortcut icon" href="/images/logos/favicon.ico">
+<meta name="msapplication-TileColor" content="#343838">
+<meta name="msapplication-TileImage" content="/images/logos/mstile-144x144.png">
+<meta name="msapplication-config" content="/images/logos/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl =
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-64330582-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+</head>
+<body class="post-template" itemscope itemtype="http://schema.org/WebPage">
+<div class="search-wrapper">
+    <div class="search-form">
+        <input type="text" id="search-field" class="search-field" placeholder="Search...">
+        <i class="fa fa-times-circle"></i>
+        <ul id="search-results" class="search-results post-list"></ul><!-- /.search-results -->
+    </div><!-- /.search-form -->
+</div><!-- ./search-wrapper -->
+
+<nav class="nav">
+  <ul class="list-inline nav-list">
+    
+      <li>
+        
+          <a href="/"><i class="fa fa-home fa-lg"></i></a>
+        
+      </li>
+    
+      <li>
+        
+          <a href="/about"><i class="fa fa-user fa-lg"></i></a>
+        
+      </li>
+    
+      <li>
+        
+          <a href="/tags"><i class="fa fa-tags fa-lg"></i></a>
+        
+      </li>
+    
+    
+      <li>
+        <i class="fa fa-search dosearch fa-lg"></i>
+      </li>
+    
+  </ul>
+</nav>
+
+  <header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url(/images/posts/refactor.png)" itemscope itemtype="http://schema.org/Organization">
+
+
+    <div class="inner">
+        <div class="container">
+            <a class="brand" href="" role="banner" itemprop="url">
+
+
+            <h1 class="blog-title light" itemprop="name">
+                Martinho Aragão
+            </h1>
+
+            </a>
+        </div>
+    </div>
+    
+    
+    <div class="decor-wrapper">
+        <svg id="header-decor" class="decor bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path class="large left" d="M0 0 L50 50 L0 100" fill="rgba(255,255,255, .1)"></path>
+            <path class="large right" d="M100 0 L50 50 L100 100" fill="rgba(255,255,255, .1)"></path>
+
+            <path class="medium left" d="M0 100 L50 50 L0 33.3" fill="rgba(255,255,255, .3)"></path>
+            <path class="medium right" d="M100 100 L50 50 L100 33.3" fill="rgba(255,255,255, .3)"></path>
+
+            <path class="small left" d="M0 100 L50 50 L0 66.6" fill="rgba(255,255,255, .5)"></path>
+            <path class="small right" d="M100 100 L50 50 L100 66.6" fill="rgba(255,255,255, .5)"></path>
+
+            <path d="M0 99.9 L50 49.9 L100 99.9 L0 99.9" fill="rgba(255,255,255, 1)"></path>
+
+            <path d="M48 52 L50 49 L52 52 L48 52" fill="rgba(255,255,255, 1)"></path>
+
+        </svg>
+    </div>
+    
+</header>
+
+<div id="main" class="content" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+    <div class="container">
+        <div class="row">
+            <article class="post col-md-8 col-md-offset-2 hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            
+            
+            
+            
+            
+                    <header class="post-header entry-header">
+                    
+                        
+                        <h1 class="post-title text-center hyper lighter bordered-bottom entry-title" itemprop="headline">Making a template my own</h1>
+                        
+                        <div class="cursive" style="color: #000; font-style:italic;">As many before, I have decided to make my own blog, picking a template was not easy, but it took longer to make it my own.</div>
+                        <div class="post-info text-center small">
+                            <span class="entry-date date published"><time datetime="2015-08-28T00:00:00+01:00" class="post-time" itemprop="datePublished">28 Aug 2015</time><span>
+                            &nbsp;<span class="post-tags"><i class="fa fa-clock-o"></i>&nbsp;<span class="time">2.745</span> minutes read</span>
+                        </div>
+                    </header>
+                    <div class="post-body bordered-bottom" itemprop="description">
+                        
+                        <p>As I was structuring my website, I came upon many Jekyll templates, some of which I forked.
+One of them, was <a href="http://willkoehler.net">Will Koehler’s</a> a simplistic, intuitive but most importantly neatly coded.
+In fact, he refactored one of the blogs in Jekyll’s list, and wrote a <a href="http://willkoehler.net/2014/08/26/save-50-hours-setting-up-your-jekyll-blog.html">post</a> about what he did.</p>
+
+<p>So, in the same fashion, I took the long approach and this post is about what I have done to <a href="https://github.com/hmfaysal/hmfaysal-omega-theme">HMFAYSAL omega theme</a>.</p>
+
+<p>To begin with, I chose to personalise my blog, for the opportunity to get to know Jekyll and by extension Ruby and Javascript.
+For that reason, even if I had found the perfect theme I would still most likely want to edit a few things just to learn and make it my own.
+As it is, it is also functions as my sandbox to try out new things.
+Though, this last argument is only fully achieved as I do not intend to mass advertise this website at least as of now, instead I have other goals, as I have explained over <a href="/hello-world">here</a>.</p>
+
+<p>Back to HMFAYSAL’s theme, I was impressed when I saw its design, clearly one that I would never be able to achieve on my own.
+Well, it’s true that I lack talent in that area, but that would be another story.
+Yet what I noticed was that despite how phenomenal the theme was, the code that built it was messier than what I was used to.
+This can be easily explained by its author background, which you may read more about in the link I provided above.</p>
+
+<p>So, in no particular order here is what I did thus far:</p>
+
+<h4 id="update">Update</h4>
+<ul>
+  <li>Font Awesome</li>
+  <li>Bootstrap</li>
+</ul>
+
+<p>Changed a few classes in order to keep the same style.</p>
+
+<hr />
+
+<h4 id="simplify-design">Simplify design</h4>
+<ul>
+  <li>Navbar</li>
+  <li>Footer</li>
+  <li>Overall details</li>
+</ul>
+
+<p>Reduced clutter, instead of clicking to access a menu, placed the buttons I needed on top, and removed the navbar on the footer.
+Also decreased the size of the social buttons along with other small things such as changed fonts and their size.</p>
+
+<hr />
+
+<h4 id="remove-categories">Remove Categories</h4>
+
+<p>Considering this is a tiny blog about what I do, I had no need for both tags and categories.
+For that reason,and because tags are more versatil, more than one allowed per post, I removed categories.</p>
+
+<hr />
+
+<h4 id="fix">Fix</h4>
+<ul>
+  <li>404 Error page</li>
+  <li>Rake new posts</li>
+</ul>
+
+<p>As far as I recall the links for the error page were outdated.
+Regarding the Rake new posts, changed it to accept arguments in the command-line through spaces.</p>
+
+<hr />
+
+<h4 id="add">Add</h4>
+<ul>
+  <li>Rake deploy by command by Will Koehler and adjusted to master instead of gh-pages.</li>
+  <li>Search by tag, quit with esc or click outside</li>
+  <li>SEO
+    <ul>
+      <li>Minify</li>
+      <li>Add robots.txt</li>
+    </ul>
+  </li>
+  <li>Code
+    <ul>
+      <li>Organise into assets pipeline
+        <ul>
+          <li>Change css to sass, and split by sections</li>
+        </ul>
+      </li>
+      <li>Javascript in separate files</li>
+    </ul>
+  </li>
+</ul>
+
+<p>So this is mostly the section where I learnt, changing to the assets pipeline required me to go through almost every single file, removing unneeded lines and adjusting some to my style.</p>
+
+<hr />
+
+<h3 id="whats-next">What’s next?</h3>
+
+<p>Focus on posting for a while, hopefully adjust quickly to that routine.
+Afterwards get more feedback, and perhaps even review the code again to ensure nothing was left behind.</p>
+
+
+                        <br>
+                    
+                    
+                    <div class="entry-tags text-center">
+
+                        <i class="fa fa-tags"></i>&nbsp;Tagged with <a href="/tags/index.html#blog" data-toggle="tooltip" title="Posts tagged with blog" rel="tag">blog</a>
+
+                    </div>
+                    
+                    </div>
+        </div>
+                    <footer class="post-footer entry-meta">
+                        
+                        
+                        <div id="disqus_thread"></div><!-- /#disqus_thread -->
+                    </footer>
+            </article>
+    </div>
+</div>
+
+<footer id="footer"  class="blog-background overlay text-center align-middle animated from-top" style="background-image: url(/images/posts/refactor.png)" >
+
+
+    <div class="inner">
+        <div class="container">
+
+            <ul class="social-icons">
+            
+            
+            
+            
+            
+            <li>
+              <a href="https://www.linkedin.com/in/martinhoaragao" data-toggle="tooltip" title="Martinho Aragão on LinkedIn" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </li>
+            
+            
+            
+            <li>
+              <a href="http://github.com/martinhoaragao" data-toggle="tooltip" title="Martinho Aragão on Github" target="_blank">
+                <i class="fa fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a href="/feed.xml" data-toggle="tooltip" title="Atom/RSS feed" target="_blank">
+                <i class="fa fa-rss"></i>
+              </a>
+            </li>
+        </ul>
+            <div>
+                <a href="/about/">Martinho Aragão</a> &copy; 2015
+            </div>
+        </div>
+    </div>
+    
+        <div class="decor-wrapper">
+            <svg id="footer-decor" class="decor top" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
+
+                <path class="large left" d="M0 0 L50 50 L0 100" fill="rgba(255,255,255, .1)"></path>
+                <path class="large right" d="M100 0 L50 50 L100 100" fill="rgba(255,255,255, .1)"></path>
+
+                <path class="medium left" d="M0 0 L50 50 L0 66.6" fill="rgba(255,255,255, .3)"></path>
+                <path class="medium right" d="M100 0 L50 50 L100 66.6" fill="rgba(255,255,255, .3)"></path>
+
+                <path class="small left" d="M0 0 L50 50 L0 33.3" fill="rgba(255,255,255, .5)"></path>
+                <path class="small right" d="M100 0 L50 50 L100 33.3" fill="rgba(255,255,255, .5)"></path>
+
+                <path d="M0 0 L50 50 L100 0 L0 0" fill="rgba(255,255,255, 1)"></path>
+
+                <path d="M48 48 L50 51 L52 48 L48 48" fill="rgba(255,255,255, 1)"></path>
+
+            </svg>
+        </div>
+    
+
+</footer>
+
+
+
+<-- Scripts -->
+<script src="/assets/app.js"></script>
+
+
+  <script src="/assets/search.js"></script>
+
+
+<script src="/assets/time_estimate.js"></script>
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'martinhoaragao'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+</body>
+</html>

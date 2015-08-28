@@ -1,6 +1,15 @@
 [
 	
 		{
+		  "title"     : "Making a template my own",
+		  "desc"   		: "As many before, I have decided to make my own blog, picking a template was not easy, but it took longer to make it my own.",
+			"tags"      : "blog",
+		  "url"       : "/refactor-blog",
+		  "date"      : "2015-08-28 00:00:00 +0100",
+		  "shortdate" : "August 28, 2015"
+		} ,
+	
+		{
 		  "title"     : "Hello, world!",
 		  "desc"   		: "From myself to a Blog, the reasoning behind accepting this webpage, my goals, fears and what I have in mind for the future",
 			"tags"      : "blog",
