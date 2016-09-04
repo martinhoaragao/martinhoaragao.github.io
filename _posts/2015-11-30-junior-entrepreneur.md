@@ -221,33 +221,82 @@ Have you noticed that you are perhaps an example to all those you contacted with
 Oh, before you think bad of me, I have never said I view myself as a role model.
 I'm just presenting an example in order to explain how utterly crucial it is to prepare the next generation.
 
-Don't teach, mentor.
+Mentoring instead of teaching.
 In that you should never show your way as the only right one.
 They can do better than you, always.
-So all they need is to understand what you did, why, and what happened.
+So all they need is to understand what you did, why, and what happened afterwards.
 
-Mentoring is more than passing down your knowledge.
+However, being a mentor is more than passing down your knowledge.
 You must recognise and nurture potential.
 Motivate your friends and mates.
 
-Essentially you must prepare others to be better than you are.
+Essentially you must prepare others to be raise beyond.
 
 -----
 
 **Vision**
 
+Perhaps the only true characteristic of a leader.
+Again, this is just my opinion.
+A manager can delegate and organise for a short time span.
+Yet, a leader must think about the next steps in order to guide everyone through the best path.
 
+It's not like he must have the final say.
+Nor have the power of foresight.
 
+Why is everyone putting an effort though?
+What can I do in order to help them achieve their goals?
+Are these the obstacles that we should face?
 
+Without the shadow of a doubt, this is the hardest to describe for me.
+Sure, it seems obvious, leader have the final say.
+However, I know great leaders that leave decisions others.
+It must be more than that.
+And I can't quite get my finger around it.
+Hopefully, one day, I will fully understand what I believe to be the unique trait of leaders.
 
+###### **Quitting**
 
+**I quit.**
 
-#### **What's next?**
+You wot?!
+Not in the middle of my term.
+But I did decide not to stay actively at YME the following year.
 
+Before the end of my 2nd year of university.
+I was faced with a dilemma.
+I had accumulated responsability towards 3 groups whilst still having 3 more years of university ahead of me.
+
+A startup, CeSIUM, YME.
+In each I had to take the next step.
+It was my limit.
+I had found that I hadn't met my goals in all of those.
+And above all else, I hadn't been able to focus at all in programming.
+
+Young Minho Enterprise had given me the opportunities to get where I was.
+But others should take the wheel.
+At the same time, it was ready to survive without me.
+I would be around, if they asked for me.
+
+So I quit, to focus on CeSIUM and university.
+In order to advance on my own projects.
+
+I owe it to all who had taught me, and those whom I worked with.
+So I set sail.
+
+#### **Hindsight**
 
 It's been a nice journey indeed.
 
+I do regret a few things, I know I could have done better.
+I am glad though, for all that happened, learning with my own mistakes.
 
-Indeed, n
-I can relato to
-Creativity is only born from networking different
+There's also a lesson, that I was tould quite recently.
+
+> Creativity is born from the networking of different individuals.
+
+Being a junior entrepreur, is embarking on a journey of obstacles.
+Each providing you the key to another opportunity.
+Embrace it, otherwise you are just missing out.
+
+Do not forget though, communication is both the hardest and the more essential.
