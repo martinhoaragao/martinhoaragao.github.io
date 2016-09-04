@@ -12,7 +12,7 @@ mathjax:
 
 It's been almost 3 years since I joined Young Minho Enterprise.
 Back then, in 2013, I had just arrived at Minho University in order to learn Software Engineering.
-Truth be tould, I had absolutely no idea what my degree was all about.
+Truth be told, I had absolutely no idea what my degree was all about.
 In fact, I had neither programmed nor knew what it was like.
 However, it was a sweet surprise when I understood what I would be doing for at least the next three years.
 I could go on about why I chose Software Engineering in the first place, but that is off the point.
@@ -58,6 +58,14 @@ That's how, in November, I joined a junior initiative.
 Indeed, an initiative, not an enterprise, it still wasn't part of [JADE Portugal](http://jadeportugal.com)) as a fully blown junior enterprise.
 It would come soon, and I would be in the front row.
 
+Oh wait, I almost forgot!
+What is a junior enterprise?
+A junior enterprise is an association of students that organizes itself as a enterprise.
+Despite being non-profit it aims to sell services to other enterprises.
+With this, preparing its members to the outside world.
+After all, lack of experience is the major flaw for those who just got a degree.
+At [JADE's website](http://jadenet.org) you can probably find a more in depth description.
+
 #### **Human Resources**
 
 To many, the contrast between the professionalism during recruitment and the environment in the team caused confusion.
@@ -86,13 +94,16 @@ As a sum up, I learnt the importance of real collaboration.
 
 #### **Presidency**
 
-One day, at a meeting, we were tould that a national junior entrepreneur conference would be held in the following week.
-It was called Jenial 2014, and I decided to go to one of the three days.
-I did not know what to expect so I chose not to commit the entire weekend, the president represented the enterprise the whole conference, while I went with the vice-president.
+###### **Embracing opportunities**
+One day, at a meeting, we were tould that a national junior entrepreneur conference would be held the following week.
+It was called Jenial 2014, and I decided to go.
+I did not know what to expect so I chose not to commit the entire weekend, the president represented the enterprise the whole conference, while I went with the vice-president which could only go to the last one.
+Out of over 20 people, only me and the presidents would be going, I didin't really think much of it at the time.
+
 By then, everyone knew that both of them would resign yet, beyond that, I think no one put more than a fleeting thought to it.
 
 Perhaps I was naive, but it did spark my interest.
-Who would be the next leading the path?
+Who would be the next leading the way then?
 Would it bring many changes?
 Could it become any better?
 Or perhaps it would be catastrophic?
@@ -114,30 +125,122 @@ In my mind the reasons as to why I was not suited kept growing, but somehow it d
 It is not like I had a lot of time to think about it, not long after I was being introduced to several other junior entrepreneurs, presidents, directors, founders.
 The day before we had officially been accepted as a junior enterprise, or was it that very same day?
 Details get fuzzy, I had "Why not you?" ringing on my head, but I kept pushing to the backburner.
-The time was to absorb everything that I could, so that I would be able to process it afterwards.
-A window had opened, was I sure it was not just unlocked.
-Could I, no, was I read to peek into it?
+There was a job to be done, make the most of that event.
+Absorb everything that I could, so that I would be able to process it afterwards.
+
+I knew I wanted to take the risk, but...
+Had the window been opened or was I just looking at glass?
+Could I, no, was I ready to peek what was on the other side?
 Or should I just dive right through?
 
 Regardless, I couldn't do it alone.
-Presidency was a two persons job.
-Who did I trust to go join this adventure?
+Presidency was a two man job.
+Who did I trust to embark on this adventure?
 Failing in finding someone would be the same as not being ready to take on the responsability.
 But the people I knew either were not ready for it, or I felt that together we wouldn't have the vigour that the predecessors had.
 
-Lets rewind, I joined a junior initiative, that had just been upgraded into a junior enterprise.
-Well, I had helped prepare the documents that were required for the this to happen along with someone.
-She had just replaced the Director of the Communication Department.
-Although we had only worked once, we were the only ones who were called to an urgent and important project.
-
-The network expected more and more from us.
+Lets rewind, I joined a junior initiative, that had just been been recognized as a junior enterprise.
+Well, I had helped prepare the documents that were required for that to happen along with someone.
+She had just replaced the Head of the Communications Department and had joined at the same time I did.
+Although we had only worked once, we were the only ones who hds helped in such a task.
 
 Chronologically, we worked together at the start of March, by the end of March the "Y not me" question popped up.
-During the start of May I had to take action, so I contacted her.
+During the start of May I had to take action, so I contacted her and she jumped onboard as the president-to-be.
+
+Later I was told that the entire process had been planned months before by the predecessors.
+It had been naive of me to think otherwise.
+
+As we wanted to be up to the task, we signed up for the junior entrepreneur world conference (JEWC), submitting a workshop.
+
+The weeks went by and I, the vice-president which had been the head of HR, and another member of HR got 2nd place in Activo Challenge.
+An Activo Bank's contest that took place at the Economics and Management School.
+We were the only team that wasn't studying in it, 2 developers and 1 psychologist.
+That meant that I spent 2 months as a marketing intern in Lisbon whilst preparing the following year of YME.
+And the workshop to JEWC had been accepted, so to it we went.
+
+###### **Managing**
+
+This has feels too much like timeline.
+As such, instead of going on with all my failures and accomplishments I will pick a few key values that looking back I am glad I learnt.
+In a way these are what I perceive to be the traits of a leader.
+
+-----
+
+**Communication**
+
+Fail at this, and you fail at it all.
+
+Teams are only as tight as the relations of the humans that constitute them.
+I'm still trying to find a way to not make the previous sentence sound corny.
+Yet for me, when we know that people are the key, then we must somehow communicate.
+Talk between veterans, with new recruits, with other associations.
+
+Understanding each other's goals and aspirations, coordinating plans, allowing everyone to understand the vision.
+Communication can provide trust, guidance and it is vital for cooperation.
+
+Every time I failed at communication it would be only a matter of time before it would come back to bite me.
+
+It happened several times, whether I was unable to explain what was needed, or I did adapt my speech to a different situation.
+With some one must go straight to the point, but with others we must sweetly pave our way.
+Talk talk talk.
+But above all, listen.
+I still list it in my weaknesses.
+Communication is more than just adapting and explaining.
+It is about understanding and one can only do that by listening.
+I always expected those I had to report to, to listen to my suggestions and take them into consideration.
+Why should my opinions count for less?
+Than why do I, as a leader, think that I must talk a lot more than the others?
+To transmit orders?
+And now we go to the endless discussion about boss vs leader.
+Either way I now recognize the importance of giving space to everyone.
+
+I cannot stress how important this is for everyone.
+It seems people tend to ditch it too quickly.
+
+-----
+
+**Dedication**
+
+I don't think there is a need to reinforce this too much.
+But how the hell do you expect to have people trusting you when you have no dedication?
+When you have other priorities, why should the others have it as the first?
+Obviously there are exceptions.
+Such as when you have someone more experienced who is providing guidance.
+But again, he is guiding, he might not be the most suited to be the leader, at the time.
+
+Yet, dedication should never be taken for granted.
+
+-----
+
+**Mentorship**
+
+Welcome, lets imagine now that you have shown fantastic people skills, dedication and hard-work.
+The next step must be to climb even higher right?
+Is the team ready to replace you though?
+Have you noticed that you are perhaps an example to all those you contacted with?
+Oh, before you think bad of me, I have never said I view myself as a role model.
+I'm just presenting an example in order to explain how utterly crucial it is to prepare the next generation.
+
+Don't teach, mentor.
+In that you should never show your way as the only right one.
+They can do better than you, always.
+So all they need is to understand what you did, why, and what happened.
+
+Mentoring is more than passing down your knowledge.
+You must recognise and nurture potential.
+Motivate your friends and mates.
+
+Essentially you must prepare others to be better than you are.
+
+-----
+
+**Vision**
 
 
 
-Later I was tould that all of it had been prepared months before.
+
+
+
 
 #### **What's next?**
 
