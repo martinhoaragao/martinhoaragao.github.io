@@ -298,5 +298,3 @@ There's also a lesson, that I was tould quite recently.
 Being a junior entrepreur, is embarking on a journey of obstacles.
 Each providing you the key to another opportunity.
 Embrace it, otherwise you are just missing out.
-
-Do not forget though, communication is both the hardest and the more essential.
