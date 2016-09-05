@@ -52,7 +52,7 @@ That's why, when one day, I saw this poster of two  disney dogs, with a slogan s
 
 I smirked.
 
-It was bold, captivating and original
+It was bold, captivating and original.
 Not long afterwards, I applied for it.
 That's how, in November, I joined a junior initiative.
 Indeed, an initiative, not an enterprise, it still wasn't part of [JADE Portugal](http://jadeportugal.com)) as a fully blown junior enterprise.
@@ -142,7 +142,7 @@ But the people I knew either were not ready for it, or I felt that together we w
 Lets rewind, I joined a junior initiative, that had just been been recognized as a junior enterprise.
 Well, I had helped prepare the documents that were required for that to happen along with someone.
 She had just replaced the Head of the Communications Department and had joined at the same time I did.
-Although we had only worked once, we were the only ones who hds helped in such a task.
+Although we had only worked once, we were the only ones who had helped in such a task.
 
 Chronologically, we worked together at the start of March, by the end of March the "Y not me" question popped up.
 During the start of May I had to take action, so I contacted her and she jumped onboard as the president-to-be.
