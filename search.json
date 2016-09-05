@@ -1,6 +1,15 @@
 [
 	
 		{
+		  "title"     : "Junior Entrepreneur",
+		  "desc"   		: "A journey as a junior entrepreneur at Young Minho Enterprise and why it was a major turnaround.",
+			"tags"      : "nonprofit",
+		  "url"       : "/junior-entrepreneur",
+		  "date"      : "2015-11-30 00:00:00 +0000",
+		  "shortdate" : "November 30, 2015"
+		} ,
+	
+		{
 		  "title"     : "Making a template my own",
 		  "desc"   		: "As many before, I have decided to make my own blog, picking a template was not easy, but it took longer to make it my own.",
 			"tags"      : "blog",
